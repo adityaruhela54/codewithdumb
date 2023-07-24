@@ -1,0 +1,29 @@
+touch .gitignore
+
+git config --global user.name Aditya
+
+git config --global user.email adityaruhela54@gmail.com
+
+git init
+
+git add .
+
+git commit -m "You can add your own comment like whatever you have updated"
+
+git status #Just to see the status 
+
+Generating a new SSH key and adding it to the ssh-agent
+
+ssh-keygen -t rsa -b 4096 -C "adityaruhela54@gmail.com"
+
+tail <path to id_rsa.pub> # Add this key to Github 
+
+git remote add origin <your git project username or URL >
+
+git push origin master
+
+
+
+
+
+
